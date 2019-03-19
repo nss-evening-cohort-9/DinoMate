@@ -1,3 +1,28 @@
 body {
   background-color: chartreuse;
+  margin: 0;
 }
+
+nav {
+  display: flex;
+  position: sticky;
+  border: 1px solid black;
+  justify-content: space-between;
+  font-size: 32px;
+  padding: auto;
+  background-color: azure;
+  width: 100%;
+
+}
+
+nav a {
+  color: slategray;
+  text-decoration: none;
+}
+
+.nav-item a {
+  border-left: solid black 1px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
