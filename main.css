@@ -1,6 +1,7 @@
 body {
   background-color: chartreuse;
   margin: 0;
+  font-family: Verdana, sans-serif;
 }
 
 nav {
@@ -26,3 +27,6 @@ nav a {
   padding-left: 20px;
 }
 
+.main-title {
+  text-align: center;
+}
