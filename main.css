@@ -2,15 +2,15 @@ body {
   background-color: chartreuse;
   margin: 0;
   font-family: Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
 nav {
   display: flex;
   position: sticky;
-  border: 1px solid black;
   justify-content: space-between;
   font-size: 32px;
-  padding: auto;
+  padding: 10px 0;
   background-color: azure;
   width: 100%;
 
